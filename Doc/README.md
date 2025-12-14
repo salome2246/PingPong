@@ -92,5 +92,7 @@ Antwort: pong
 * Der Server muss **vor dem Client** gestartet werden.
 * Das Projekt kann lokal auf einem Computer ausgeführt werden.
 
-## Hinweis zur Erstellung
+---
+
+Hinweis zur Erstellung:
 Die Files server.py und client.py sowie das README.md wurden mit Unterstützung eines KI-Tools erstellt und verstanden.

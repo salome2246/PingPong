@@ -1,7 +1,5 @@
-# PROJEKTBESCHRIEB
-Implementiere ein UDP/TCP basierendes Ping-Pong Pro-
-tokoll in Python. Ein Ping wird gesendet und mit einem Pong beant-
-wortet.
+# AUFGABENSTELLUNG
+Implementiere ein UDP/TCP basierendes Ping-Pong Protokoll in Python. Ein Ping wird gesendet und mit einem Pong beantwortet.
 
 ## 1.1.1  Basic PingPong
 Ping sendet eine Zahl n (=spin), und Pong antwortet mit n + 1.
