@@ -10,8 +10,11 @@ print("UDP Server läuft...")
 
 while True:
     data, addr = sock.recvfrom(1024)
-    print(f"Empfangen von {addr}: {data.decode()}")
+    spin = int(data.decode())
 
-    if data.decode() == "ping":
-        sock.sendto("pong".encode(), addr)
-        print("→ pong gesendet")
+    print(f"Pong erhalten: {spin}")
+
+    spin += 1
+    sock.sendto(str(spin).encode(), addr)
+
+    print(f"Pong gesendet: {spin}")
