@@ -1,4 +1,6 @@
 import socket
+import random
+import time
 
 SERVER_IP = "0.0.0.0"
 SERVER_PORT = 5005
@@ -13,6 +15,9 @@ while True:
     spin = int(data.decode())
 
     print(f"Pong erhalten: {spin}")
+    # Verzögerung zufällig zwischen 1 und 5 Sekunden
+    delay = random.randint(1, 5)
+    time.sleep(delay)
 
     spin += 1
     sock.sendto(str(spin).encode(), addr)
