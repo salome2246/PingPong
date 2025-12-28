@@ -20,9 +20,9 @@ while True:
     print(f"Proxy empfängt Spin {spin} von Ping")
 
     # Flugbahn verlängern
-    delay = random.randint(1, 3)
-    print(f"Proxy verzögert {delay}s")
-    time.sleep(delay)
+   # delay = random.randint(1, 3)
+    #print(f"Proxy verzögert {delay}s")
+    #time.sleep(delay)
 
     # 2. Proxy → Pong (Spin unverändert)
     sock.sendto(data, (PONG_IP, PONG_PORT))
@@ -33,9 +33,9 @@ while True:
     print("Proxy empfängt Antwort von Pong")
 
     # Flugbahn wieder verlängern
-    delay = random.randint(1, 3)
-    print(f"Proxy verzögert {delay}s")
-    time.sleep(delay)
+    #delay = random.randint(1, 3)
+    #print(f"Proxy verzögert {delay}s")
+    #time.sleep(delay)
 
     # 4. Proxy → Ping
     sock.sendto(response, ping_addr)
