@@ -1,42 +1,34 @@
 import socket
-import time
-import random
 
-PROXY_IP = "127.0.0.1"
-PROXY_PORT = 5005
+PPSP_IP = "127.0.0.1"
+PPSP_PORT = 5005
 
-PONG_IP = "127.0.0.1"
-PONG_PORT = 6000
+NEXT_IP = "127.0.0.1"
+NEXT_PORT = 6000
+
+INCREMENT = 1  # PPSP verändert Ping UND Pong
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-sock.bind((PROXY_IP, PROXY_PORT))
+sock.bind((PPSP_IP, PPSP_PORT))
 
-print("Proxy läuft...")
+print("PPSP läuft...")
 
-while True:
-    # 1. Ping → Proxy
-    data, ping_addr = sock.recvfrom(1024)
-    spin = data.decode()
-    print(f"Proxy empfängt Spin {spin} von Ping")
+# ---------- Ping ----------
+data, client_addr = sock.recvfrom(1024)
+spin = int(data.decode())
+print(f"PPSP empfängt Ping: {spin}")
 
-    # Flugbahn verlängern
-   # delay = random.randint(1, 3)
-    #print(f"Proxy verzögert {delay}s")
-    #time.sleep(delay)
+spin += INCREMENT
+sock.sendto(str(spin).encode(), (NEXT_IP, NEXT_PORT))
+print(f"PPSP leitet Ping weiter: {spin}")
 
-    # 2. Proxy → Pong (Spin unverändert)
-    sock.sendto(data, (PONG_IP, PONG_PORT))
-    print("Proxy leitet an Pong weiter")
+# ---------- Pong ----------
+data, _ = sock.recvfrom(1024)
+spin = int(data.decode())
+print(f"PPSP empfängt Pong: {spin}")
 
-    # 3. Pong → Proxy
-    response, _ = sock.recvfrom(1024)
-    print("Proxy empfängt Antwort von Pong")
+spin += INCREMENT
+sock.sendto(str(spin).encode(), client_addr)
+print(f"PPSP sendet Pong an Client: {spin}")
 
-    # Flugbahn wieder verlängern
-    #delay = random.randint(1, 3)
-    #print(f"Proxy verzögert {delay}s")
-    #time.sleep(delay)
-
-    # 4. Proxy → Ping
-    sock.sendto(response, ping_addr)
-    print("Proxy leitet Antwort an Ping zurück\n")
+sock.close()
