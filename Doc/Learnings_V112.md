@@ -9,17 +9,28 @@ Die Fehlermeldung soll mich über verlorene Daten informieren und gegebenfalls d
 ## Fragen
 
 **Try und Except**  
+**try:** Python führt den Code hier aus.
+**except ValueError:** Wenn während des try-Blocks ein ValueError auftritt (z.B. falsche Eingabe), springt Python in den except-Block.
+So stürzt das Programm nicht ab, sondern reagiert sauber auf den Fehler.
 
+socket.timeout: tritt auf, wenn innerhalb der gesetzten Zeit keine Antwort empfangen wird
 
-## Begriffe
+Exception as e: fängt alle anderen Fehler ab und gibt die Fehlermeldung aus
+
+## Begriffe 
+
 
 ## Vorgehen
 
-ICh bin mir erst etwas unsicher welche Fehler ich genau abfangen will und was ich damit machen möchte. 
-was soll bei einem timeout passiren
-Und wo die try and Catch Blöcke im Codee genau hingehören. 
-Um die Fehlerbehandlung testen zu können baue ich eine verzögerung ein.
-Alles ist etwas kaotisch weswegen ich mich entscheide die Aufgabe nochmals neu zu lösen.
+Ich bin mir erst etwas unsicher welche Fehler ich genau abfangen will und was bei einem
+Timeout passieren soll.
+Ebenfalls unsicher bin ich wo die Try and Except Blöcke im Code genau hingehören.
+Ich arbeite ein bisschen auf "Try and Error".
+Um die Fehlerbehandlung testen zu können baue ich auf den Server eine Verzögerung ein die zufällig auftritt.
+
+
+
+
 
 
 Automatisches Wiederholen:
