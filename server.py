@@ -14,7 +14,7 @@ while True:
     data, addr = sock.recvfrom(1024)
     spin = int(data.decode())
 
-    print(f"Pong erhalten: {spin}")
+    print(f"Ping erhalten: {spin}")
     # Verzögerung zufällig zwischen 1 und 5 Sekunden
     delay = random.randint(1, 5)
     time.sleep(delay)
