@@ -8,7 +8,9 @@ Ebenfalls bewährt hat sich die **klare Struktur der Learnings** (Verständnis d
 Diese Struktur werde ich auch in zukünftigen Projekten beibehalten.
 
 Besonders profitiert habe ich davon, Learnings **unmittelbar festzuhalten**.  
-Zusätzlich hilft es mir sehr, Situationen **grafisch darzustellen**, da mir das visuelle Lernen besonders liegt.
+Zusätzlich hilft es mir sehr, Situationen **grafisch darzustellen**, da mir das visuelle Lernen besonders liegt.  
+
+Die Arbeit mit dem Markdown-Dateiformat hat sich als sehr simpel und praktisch erwiesen.
 
 ---
 
