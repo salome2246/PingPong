@@ -1,24 +1,34 @@
 # Learnings abschliessend
 
-## Hat sich für mich persönlich bewährt:
-Die **Dokumentation meiner Learnings** hat mir geholfen gelerntes zu verfestigen.
-Ich erhoffe mir zu einem späteren Zeitpunkt darauf zurückgreifen zu können
-um mir das Erlernte schnell wieder in Erinnerung zu rufen.
-Ebenso bewährt hat sich die **Struktur der Learnings** (Verständnis der Aufgabe, Fragen, Bgriffe, Vorgehen).
-Ich werde diese für weitere Projekte so beibehalten.
-Profitiert habe ich besonders beim unmittelbare Festhalten der Learnings.
-Situationen **Grafisch** festzuhalten, hilft mir beim Lernen enorm, da mir besonders das visuelle Lernen liegt.
+## Was sich für mich persönlich bewährt hat
+Die **Dokumentation meiner Learnings** hat mir geholfen, das Gelernte zu verfestigen.  
+Ich erhoffe mir, zu einem späteren Zeitpunkt darauf zurückgreifen zu können, um mir Inhalte schnell wieder in Erinnerung zu rufen.
+
+Ebenfalls bewährt hat sich die **klare Struktur der Learnings** (Verständnis der Aufgabe, offene Fragen, Begriffe, Vorgehen).  
+Diese Struktur werde ich auch in zukünftigen Projekten beibehalten.
+
+Besonders profitiert habe ich davon, Learnings **unmittelbar festzuhalten**.  
+Zusätzlich hilft es mir sehr, Situationen **grafisch darzustellen**, da mir das visuelle Lernen besonders liegt.
+
+---
 
 ## Verbesserungspotenzial
+Das **Versionieren mit Git** verlief noch etwas chaotisch.  
+Die Best Practices rund um *Main* und *Branches* muss ich mir nochmals genauer anschauen.
 
-Das **Versionisieren mit Git**  verlief noch etwas chaotisch. 
-Die "Bestpractice" mit Main und Branch muss ich nochmals recherieren.
-Von einer Version zur andern praktisch den ganzen Code neu zu schreiben ist sicherlich nicht "BestPractice".
-Sinnvoll wäre sicher auch gewesen, Port und ID zu parametrisieren um das Programm flexibel zu halten.
+Von einer Version zur nächsten nahezu den gesamten Code neu zu schreiben, ist sicherlich nicht „Best Practice“.  
+Sinnvoll wäre es zudem gewesen, **Port und ID zu parametrisieren**, um das Programm flexibler zu gestalten.
 
+---
 
-## Takeaways:
-- Dokumentation möglichst zeitnah und fortlaufend erstellen!
-- Versionisierungskonzept von Beginn an festlegen!
-- Fokus auf das Lernen und nicht das einzureichende Endergebnis zu legen ist für mich befriedigender.
+## Ausblick
+In einem nächsten Schritt möchte ich ausprobieren, **Ping und Pong auf zwei verschiedenen Maschinen** auszuführen.
+
+---
+
+## Takeaways
+- Dokumentation möglichst zeitnah und kontinuierlich erstellen  
+- Versionierungskonzept von Beginn an festlegen  
+- Der Fokus auf das Lernen statt auf das einzureichende Endergebnis ist für mich nachhaltiger und befriedigender
+
 
