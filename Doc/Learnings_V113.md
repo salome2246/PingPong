@@ -1,9 +1,10 @@
 # Learnings_V113
 
-## Verständnis der Aufgabe
+## Verständnis der [Aufgabe](Aufgabenstellung.md#113-ping-pong-mit-einem-pingpong-proxy)
 Zwischen Client und Service wird ein Konstrukt (Proxy) geschoben, das den Ping resp. Pong unverändert weiterleitet.  
 Der Proxy wirkt also wie ein Netzwerk-Zwischenknoten, der nichts an den Daten ändert aber Latenz simuliert.
 
+[Grafische Darstellung](GrafischeDarstellung_V113.pdf)
 ## Fragen
 **Was ist ein Proxy?**
 Ein Proxy ist ein Vermittler zwischen zwei Kommunikationspartnern.

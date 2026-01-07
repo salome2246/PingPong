@@ -1,6 +1,6 @@
 # Learnings_V112
 
-## Verständnis der Aufgabe
+## Verständnis der [Aufgabe](Aufgabenstellung.md#112-ping-pong-mit-udp-fehlerbehandlung)
 Da bei eine UDP-Übertragung Fehler entstehen können resp. 
 Pings und Pongs verloren gehen können, braucht es eine Fehlerbehandung.  
 Die Fehlermeldung soll mich über verlorene Daten informieren und gegebenfalls den Ping erneut senden.  

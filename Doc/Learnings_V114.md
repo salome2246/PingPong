@@ -1,6 +1,6 @@
 # Learnings_V114
 
-## Verständnis der Aufgabe
+## Verständnis der [Aufgabe](Aufgabenstellung.md#114-kette-von-pingpongs)
 
 Der Ping-Pong-Service soll generalisiert werden, sodass mehrere Ping-Pong-Service-Provider (PPSP) eine Kette bilden. Das Proxy leitet nun den Ping resp Pong nicht nur weiter, es verändert ihn. Server und Client hingegen bleiben exakt gleich. (Client sendet Ping und wartet auf Pong von Server.) Jeder Knoten kennt nur seinen Vorgänger und seinen Nachfolger.
 
@@ -14,6 +14,8 @@ Server sendet Pong: 3
 PPSP empfängt Pong: 3  
 PPSP sendet Pong an Client: 4  
 Client empfängt Pong: 4  
+
+[Grafische Darstellung](GrafischeDarstellung_V114.pdf)
 
 ## Fragen
 

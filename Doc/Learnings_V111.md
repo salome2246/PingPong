@@ -1,6 +1,6 @@
 # Learnings_V111
 
-## Verständnis der Aufgabe
+## Verständnis der [Aufgabe](Aufgabenstellung.md#111--basic-pingpong)
 
 Das PingPong soll so erweitert werden, dass alle Pings und alle Pongs durchnummeriert werden.
  

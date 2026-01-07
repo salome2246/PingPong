@@ -1,10 +1,12 @@
 # Learnings_V110
 
-## Verständnis der Aufgabe
+## Verständnis der [Aufgabe](Aufgabenstellung.md#110--basic-pingpong)
 Es soll ein UDP/TCP basierendes Ping-Pong Protokoll in Python implementiert werden. 
 Ein Pythonprogramm, das einen Client simuliert, sendet ein "Ping" das von einem Pythonprogramm, das einen Server simuliert, mit einem "Pong" beantwortet wird.
 Beide Programme laufen auf meinem eigenen Computer.
 Nach und nach wird das Programm mit Features erweitert.
+
+[Grafische Darstellung](GrafischeDarstellung_V110.pdf)
 
 ## Fragen
 
